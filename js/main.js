@@ -48,7 +48,32 @@
 // -----------------------------------------------
 
 
-// 3.
+// 3. Adivinar un número entre el 1 y el 100 en el menor número de pasos posibles
+
+// 1, 100, 50, 89, 50, 99, 24
+// const adivinar = () => {
+//     let superior = 100;
+//     let inferior = 0;
+
+//     let noEncontrado = true;
+//     while (noEncontrado) {
+//         let mid = inferior + parseInt((superior - inferior) / 2);
+//         if (((superior - inferior) / 2) < 1) {
+//             noEncontrado = false;
+//             alert(`Tu número es el ${mid+1}`);
+//             break;
+//         } // if
+//         let res = confirm(`¿Tu número es menor o igual a ${mid}`);
+//         if (res) {
+//             superior = mid;
+//         } else {
+//             inferior = mid;
+//         } // if
+//         console.log(parseInt((superior - inferior) / 2));
+//         console.log(mid);
+//         console.log(inferior, superior);
+//     } // while
+// }; // adivinar
 
 
 // -----------------------------------------------
